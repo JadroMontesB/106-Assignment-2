@@ -1,0 +1,86 @@
+/* Aside, Main & Section Part */
+
+main{
+
+    display: flex;
+    min-height:74vh;
+   
+    background-repeat: no-repeat;
+    background-image: url("../img/back.jpg");
+}
+
+aside{
+
+    flex: 1;
+    padding: 10px 20px;
+
+    background: #FF77F7;
+    background: -moz-linear-gradient(45deg, #FF77F7 0%, #7B3986 38%, #176980 100%);
+    background: -webkit-linear-gradient(45deg, #FF77F7 0%, #7B3986 38%, #176980 100%);
+    background: linear-gradient(45deg, #FF77F7 0%, #7B3986 38%, #176980 100%);
+}
+
+section{
+
+    flex: 2;
+}
+
+
+/* Style Page */
+
+.form{
+
+    color:azure;
+    text-shadow: 2px 2px darkcyan;
+    font-size: 23px;
+}
+
+.form input{
+
+    border-width: 2px;
+    border-style: inset;
+    border-color:darkcyan
+}
+
+.form textarea{
+
+    border-width: 2px;
+    border-style: inset;
+    border-color:darkcyan
+}
+
+/* Icon */
+
+.iImportant{
+
+    font-size: 32px;
+    color: azure;
+    cursor: pointer;
+}
+
+.iImportant.fas{
+
+    color: darkcyan;
+    text-shadow: 1px 1px azure;
+}
+
+/* Other */
+
+html{
+
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+
+    color:darkcyan;
+    text-shadow: 2px 2px gray;
+}
+
+h3{
+
+    color:azure;
+    text-shadow: 2px 2px darkcyan;
+    text-align: center;
+}
